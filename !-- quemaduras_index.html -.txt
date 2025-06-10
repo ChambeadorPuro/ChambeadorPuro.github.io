@@ -1,0 +1,39 @@
+<!-- INICIO DEL ARCHIVO index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprende Sobre las Quemaduras</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Fredoka+One&display=swap" rel="stylesheet" />
+    <style>
+        /* Estilos completos pegados aquí */
+        /* Usa el CSS que me diste en tu código original */
+    </style>
+</head>
+<body>
+    <!-- Estructura del juego -->
+    <div id="game-container">
+        <div id="background-area"></div>
+        <div id="ui-area">
+            <h2 id="level-title">Nivel 1</h2>
+            <p id="question-text">Cargando pregunta...</p>
+            <div id="options-container"></div>
+            <p id="message-area"></p>
+            <button id="next-button" style="display: none;">Siguiente Nivel</button>
+        </div>
+        <div id="end-screen">
+            <h1 id="end-message">¡Te salvaste!</h1>
+            <div class="firework-container"></div>
+            <button id="restart-button">Jugar de Nuevo</button>
+        </div>
+    </div>
+
+    <!-- JavaScript del juego -->
+    <script>
+        // Todo el JS que me pasaste (sin cambios) va aquí
+    </script>
+</body>
+</html>
+<!-- FIN DEL ARCHIVO -->
